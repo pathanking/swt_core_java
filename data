@@ -1,0 +1,65 @@
+final with variables: can't modified further
+final with classes: can't be inherited
+final with methods: can't overridden
+enum: It's a group of named constants
+
+super:
+    it refers superclass object
+    it is used to call superclass constructor, method, fields
+
+this:
+    it refers the current object
+    it is used to call same class constructors
+    it is used to distinguish between instance fields and local variables
+
+Wrapper Classes:
+--------------------
+Integer     -->     int
+Float       -->     float
+Double      -->     double
+Byte        -->     byte
+Short       -->     short
+Long        -->     long
+Character   -->     char
+Boolean     -->     boolean
+
+Method Overloading: Static Polymorphism
+define multiple methods with the same name but different type/number parameters
+
+Method Overriding:  Runtime Polymorphism
+    re-define superclass method into child class is called method overriding
+    at runtime, JVM always picks childclass overriding method
+    childclass overriding method shouldn't change method signature
+
+Abstraction:
+    hide implementation details & expose only the required info
+
+Lambda Expression(since Java 1.8):
+---------------------
+=> A lambda expression represents an anonymous function
+=> It's an implementation of a functional interface
+=> It helps to write functional/declarative programming
+=> Syntax:
+    (args) -> lambda body;
+
+=> write a lambda expression/method reference for each functional interface from java.util.function package
+
+Java8 Stream API: java.util.stream package
+--------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
